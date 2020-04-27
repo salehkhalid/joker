@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="btnSales" layoutX="33.0" layoutY="203.0" mnemonicParsing="false" onAction="#handleSales" prefHeight="71.0" prefWidth="191.0" text="Sales" />
+      <Button fx:id="btnCars" layoutX="33.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleCars" prefHeight="71.0" prefWidth="191.0" text="Cars" />
+      <Button fx:id="btnReports" layoutX="33.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleReports" prefHeight="71.0" prefWidth="191.0" text="Reports" />
+      <Button fx:id="btnUsers" layoutX="33.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleUsers" prefHeight="71.0" prefWidth="191.0" text="Users" />
+      <ImageView fitHeight="124.0" fitWidth="1258.0" layoutX="11.0" layoutY="7.0" pickOnBounds="true">
+         <image>
+            <Image url="@header.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLogOut" layoutX="1126.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleLogOut" prefHeight="71.0" prefWidth="118.0" text="Log Out" />
+      <BarChart fx:id="barChart" layoutX="282.0" layoutY="200.0" prefHeight="498.0" prefWidth="831.0" title="Employees Sales">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

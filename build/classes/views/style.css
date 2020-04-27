@@ -1,0 +1,46 @@
+#AnchorPane{
+        -fx-background-color: linear-gradient(#F3F5F4, #D9E8F0);
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size:16;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(180,150,180,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    -fx-effect: dropshadow( three-pass-box , rgba(120,120,120,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+#btnBack {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size:16;
+    -fx-background-color: linear-gradient( #A0E1D0,  #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(180,150,180,0.6) , 5, 0.0 , 0 , 1 );
+}
+#btnBack:hover {
+    -fx-background-color: linear-gradient(#2A5058, #A0E1D0);
+    -fx-effect: dropshadow( three-pass-box , rgba(180,120,120,0.6) , 5, 0.0 , 0 , 1 );
+}
+#btnBack {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size:16;
+    -fx-background-color: linear-gradient( #A0E1D0,  #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(180,150,180,0.6) , 5, 0.0 , 0 , 1 );
+}
+#btnDelete {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size:16;
+    -fx-background-color: linear-gradient(  red,white);
+    -fx-effect: dropshadow( three-pass-box , rgba(180,120,120,0.6) , 5, 0.0 , 0 , 1 );
+}
